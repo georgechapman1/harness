@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_georgechapman1_harness_1742230638548-push-trigger-input-set
+  identifier: Build_georgechapman1_harness_1742230638548pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_georgechapman1_harness_1742230638548
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
